@@ -15,7 +15,7 @@ timings:
   enabled: true
   verbose: true
   url: https://timings.aikar.co/
-  server-name-privacy: false
+  server-name-privacy: true
   hidden-config-entries:
   - database
   - settings.bungeecord-addresses
@@ -221,7 +221,7 @@ world-settings:
     should-remove-dragon: false
     max-auto-save-chunks-per-tick: 24
     baby-zombie-movement-modifier: 0.5
-    optimize-explosions: false
+    optimize-explosions: true
     use-vanilla-world-scoreboard-name-coloring: false
     prevent-moving-into-unloaded-chunks: false
     count-all-mobs-for-spawning: false
@@ -310,8 +310,8 @@ world-settings:
     fix-climbing-bypassing-cramming-rule: false
     container-update-tick-rate: 1
     water-over-lava-flow-speed: 5
-    grass-spread-tick-rate: 1
-    use-faster-eigencraft-redstone: false
+    grass-spread-tick-rate: 4
+    use-faster-eigencraft-redstone: true
     fixed-chunk-inhabited-time: -1
     prevent-tnt-from-moving-in-water: false
     max-leash-distance: 10.0
