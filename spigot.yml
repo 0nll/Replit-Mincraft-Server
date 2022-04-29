@@ -96,7 +96,7 @@ world-settings:
       swim-multiplier: 0.01
       sprint-multiplier: 0.1
       other-multiplier: 0.0
-    max-tnt-per-tick: 100
+    max-tnt-per-tick: 70
     max-tick-time:
       tile: 50
       entity: 50
@@ -145,7 +145,7 @@ world-settings:
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
-      tick-inactive-villagers: true
+      tick-inactive-villagers: false
       ignore-spectators: false
     merge-radius:
       exp: 3.0
