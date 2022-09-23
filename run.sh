@@ -1,2 +1,3 @@
 echo "Running server..."
-java -server -Xms1024M -Xmx1024M -Dcom.mojang.eula.agree=true -jar server.jar nogui
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+
